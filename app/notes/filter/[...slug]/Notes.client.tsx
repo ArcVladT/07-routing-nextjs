@@ -6,7 +6,7 @@ import NoteList from "@/components/NoteList/NoteList";
 import css from "@/components/NotesPages/NotePage.module.css";
 import PaginationPages from "@/components/Pagination/Pagination";
 import SearchBox from "@/components/SearchBox/SearchBox";
-import { fetchNotes } from "@/lib/api/api";
+import { fetchNotes } from "@/lib/api";
 import { FetchNotesResponse, NoteTag } from "@/types/note";
 import { keepPreviousData, useQuery } from "@tanstack/react-query";
 import { useState } from "react";
