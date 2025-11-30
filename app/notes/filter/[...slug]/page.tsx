@@ -1,6 +1,6 @@
 import NotesClient from "./Notes.Client";
 import { QueryClient } from "@tanstack/react-query";
-import { fetchNotes } from "@/lib/api/noteService";
+import { fetchNotes } from "@/lib/api/api";
 import { NoteTag } from "@/types/note";
 
 interface Props {

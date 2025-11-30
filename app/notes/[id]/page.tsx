@@ -1,4 +1,4 @@
-import { fetchNoteById } from "@/lib/api/noteService";
+import { fetchNoteById } from "@/lib/api/api";
 import {
 	dehydrate,
 	HydrationBoundary,
